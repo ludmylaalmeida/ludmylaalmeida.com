@@ -71,12 +71,17 @@ ul {
 }
 li,
 p {
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 300;
   color: #231f20;
   margin: 0;
   font-family: Lato, sans-serif;
 }
+
+.about-content ul li {
+  font-size: 1em;
+}
+
 a {
   color: #ec1966;
   font-weight: 400;
@@ -108,7 +113,7 @@ a:hover {
   user-select: none;
   border: 2px solid #ec1966;
   padding: 0 30px;
-  font-size: 16px;
+  font-size: 1em;
   height: 40px;
   line-height: 40px;
   border-radius: 50px;
@@ -137,18 +142,49 @@ a:hover {
   border-color: #ec1966;
 }
 .section-title .title {
-  font-size: 32px;
+  font-size: 2em;
   padding-top: 10px;
   font-weight: 700;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .section-title .title {
-    font-size: 30px;
-  }
+
+.center-btn {
+  margin: 0 auto;
 }
+
+.portfolio-hover:hover {
+  opacity: 0.7;
+}
+
+.portfolio-button {
+  display: inline-block;
+  font-weight: 700;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  border: 2px solid #ec1966;
+  padding: 0 30px;
+  font-size: 1em;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  background-color: #ec1966;
+}
+
+.portfolio-hover:hover + .button,
+.button:hover {
+  display: inline-block;
+}
+
 @media (max-width: 767px) {
   .section-title .title {
-    font-size: 24px;
+    font-size: 1.5em;
   }
 }
 .section-title .title span {
@@ -609,7 +645,7 @@ a:hover {
   }
 }
 .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 700;
   color: #222;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -712,7 +748,7 @@ a:hover {
     top: 0;
     background: 0 0;
     color: #222;
-    font-size: 18px;
+    font-size: 1em;
     border: 0;
     width: 30px;
     height: 30px;
@@ -778,12 +814,12 @@ a:hover {
   }
 }
 .header-hero {
-  height: 700px;
+  height: 500px;
   position: relative;
 }
 @media only screen and (min-width: 1400px) {
   .header-hero {
-    height: 800px;
+    height: 700px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -838,11 +874,11 @@ a:hover {
 @media (max-width: 767px) {
   .header-hero-content {
     padding-top: 150px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
   }
 }
 .header-hero-content .hero-title {
-  font-size: 60px;
+  font-size: 3em;
   font-weight: 400;
   color: #000;
 }
@@ -1037,7 +1073,7 @@ a:hover {
 }
 .project-menu ul li {
   display: inline-block;
-  font-size: 16px;
+  font-size: 1em;
   color: #000;
   margin-left: 50px;
   cursor: pointer;
@@ -1113,13 +1149,17 @@ a:hover {
   }
 }
 .single-testimonial .testimonial-text .text {
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 400;
   font-family: Lato, sans-serif;
   line-height: 36px;
   color: #222;
   padding-bottom: 25px;
 }
+
+.single-testimonial:hover {
+}
+
 @media (max-width: 767px) {
   .single-testimonial .testimonial-text .text {
     font-size: 18px;
@@ -1170,6 +1210,5 @@ a:hover {
   display: none;
 }
 .back-to-top:hover {
-  color: #fff;
   background-color: #ec1966;
 }

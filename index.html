@@ -23,6 +23,9 @@
     <!--====== Animate CSS ======-->
     <link rel="stylesheet" href="assets/css/animate.css">
 
+    <!-- Line Icon -->
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+
     <!--====== Bootstrap CSS ======-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -39,8 +42,6 @@
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
-
     <!--====== PRELOADER PART START ======-->
     <div class="preloader">
         <div class="loader">
@@ -88,7 +89,7 @@
                                         <a href="#experience">Experience</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#portfolio">Work</a>
+                                        <a href="portfolio.html">Portfolio</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#contact">Contact</a>
@@ -97,29 +98,32 @@
                             </div> <!-- navbar collapse -->
 
                             <div class="navbar-btn d-none d-sm-inline-block">
-                                <a class="main-btn" href="https://ludmylaalmeida.github.io/resume/"
-                                    target="_blank">Resume</a>
+                                <a class="main-btn" href="Ludmyla-Almeida-Resume-2021.pdf" target="_blank">Resume</a>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+                </div>
+            </div>
         </div> <!-- navbar area -->
 
         <div id="home" class="header-hero bg_cover d-lg-flex align-items-center">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
+                <div class="row justify-content-center">
+                    <div class="col-lg-11">
                         <div class="header-hero-content">
                             <h4 class="font-weight-normal">Hi there, my name is</h4>
                             <h1 class="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"><span
-                                    class="font-weight-bold">Ludmyla Almeida</span> <span class="emoji"></span></br> I
-                                design and build things for the web.</b></h1>
-
+                                    class="font-weight-bold">Ludmyla Almeida</span> <span class="emoji"></span></br>
+                                I design and build things for the web.</b></h1>
                         </div> <!-- header hero content -->
+                        <div class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <a class="main-btn mt-4" href="portfolio.html">See my work</a>
+                        </div>
+
+
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+                </div>
+            </div>
         </div> <!-- header hero -->
         <!-- Social media icons fixed position -->
         <div class="social-media d-none d-lg-block">
@@ -136,18 +140,6 @@
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                 </li>
-                <li>
-                    <!-- INSTAGRAM -->
-                    <a href="https://www.instagram.com/iamludmyla/" class="black" target="_blank"><i
-                            class="fab fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <!-- FACEBOOK -->
-                    <a href="https://www.facebook.com/ludmylaa " class="black" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                </li>
             </ul>
         </div>
     </header>
@@ -156,9 +148,9 @@
 
     <!--====== ABOUT PART START ======-->
 
-    <section id="about" class="about-area pt-100">
+    <section id="about" class="about-area pt-50">
         <div class="container">
-            <div class="row justify-content-start">
+            <div class="row justify-content-center">
                 <div class="col-lg-3">
                     <div class="about-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h3 class="title">About Me<span>.</span></h3>
@@ -169,59 +161,80 @@
                         <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">I'm an aspiring front
                             end developer and UX Designer. I'm currently a senior at <a class="font-weight-normal"
                                 href="https://www.uml.edu/sciences/computer-science/" target="_blank">University of
-                                Massachusetts Lowell</a> studying Computer Science. On my daily basis I work on a wide
-                            variety of interesting and meaningful projects.</p>
-                        <p class="text wow fadeInUp pt-10" data-wow-duration="1s" data-wow-delay="0.4s">Overall I am
+                                Massachusetts Lowell</a> studying Computer Science.</p>
+                        <p class="text wow fadeInUp pt-10" data-wow-duration="1s" data-wow-delay="0.4s">I am
                             passionate about building easy to use applications. I enjoy bridging the gap between
-                            development and design — combining my technical knowledge with my keen eye for design to
-                            create a beautiful and usable product. My goal is to always build applications that are
-                            scalable and efficient under the hood while providing engaging user experiences.</p>
+                            development and design — combining my technical knowledge with my love for design to
+                            create a beautiful and usable product.</p>
+                        <p class="text wow fadeInUp pt-10" data-wow-duration="1s" data-wow-delay="0.4s">My goal is to
+                            always build applications that are
+                            scalable and efficient under the hood while providing engaging user experiences to people.
+                        </p>
                     </div> <!-- about content -->
                 </div>
 
-            </div> <!-- row -->
+            </div>
             <div class="row justify-content-center">
 
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
 
     <!--====== ABOUT PART ENDS ======-->
 
     <!--====== SKILL START ======-->
-    <section id="skill" class="about-area pt-100">
+    <section id="skill" class="about-area mt-5">
         <div class="container">
-            <div class="row justify-content-start">
-                <div class="col-lg-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 mb-3">
                     <div class="about-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h3 class="title">Skills<span>.</span></h3>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="about-content pt-10 row">
-                        <div class="col-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <div class="col-lg-3 col-md-4 col-3 col-sm-12 wow fadeInUp mb-3" data-wow-duration="1s"
+                            data-wow-delay="0.4s">
                             <h4>Languages</h4>
                             <ul class="pt-10">
                                 <li>Javascript</li>
-                                <li>Typescript</li>
                                 <li>HTML/CSS</li>
+                                <li>C</li>
                                 <li>C++</li>
                                 <li>Java</li>
                             </ul>
                         </div>
-                        <div class="col-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                            <h4>Frameworks</h4>
+                        <div class="col-lg-3 col-md-4 col-sm-12 wow fadeInUp mb-3" data-wow-duration="1s"
+                            data-wow-delay="0.4s">
+                            <h4>Libraries &amp; Frameworks</h4>
                             <ul class="pt-10">
+                                <li>jQuery</li>
                                 <li>React</li>
                                 <li>AngularJS</li>
-                                <li>Wordpress</li>
+                                <li>Node.js</li>
+                                <li>Bolt API</li>
                             </ul>
                         </div>
-                        <div class="col-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+
+                        <div class="col-lg-3 col-md-4 col-sm-12 wow fadeInUp mb-3" data-wow-duration="1s"
+                            data-wow-delay="0.4s">
+                            <h4>Tools &amp; Platforms</h4>
+                            <ul class="pt-10">
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>Wordpress</li>
+                                <li>Slack Block Kit Builder</li>
+                                <li>Glitch</li>
+                                <li>Zeroheight</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-12 wow fadeInUp mb-3" data-wow-duration="1s"
+                            data-wow-delay="0.4s">
                             <h4>Design</h4>
                             <ul class="pt-10">
                                 <li>Sketch</li>
                                 <li>Adobe XD</li>
+                                <li>Usability Testing</li>
                                 <li>Prototyping</li>
                                 <li>Wireframing</li>
                                 <li>Photoshop</li>
@@ -232,181 +245,240 @@
 
                     </div> <!-- about content -->
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
 
     <!--====== SKILL ENDS ======-->
 
     <!--====== EXPERIENCE START ======-->
-    <section id="experience" class="about-area pt-70 pb-120">
+    <section id="experience" class="about-area pt-30 pb-120">
         <div class="container">
-            <div class="justify-content-start">
-                <div class="row col-lg-12 pb-50">
+            <div class="row justify-content-center">
+                <div class="row mt-5 mb-3 col-lg-11">
                     <div class="about-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h3 class="title">Experience<span>.</span></h3>
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-4">
+                    <div class="row justify-content-center">
+                        <div class="mb-5">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
-                                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
-                                    role="tab" aria-controls="v-pills-home" aria-selected="true">Liberty Mutual
+                                <a class="nav-link active" id="v-pills-salesforce-tab" data-toggle="pill" href="#v-pills-salesforce"
+                                role="tab" aria-controls="v-pills-salesforce" aria-selected="true">Salesforce</a>
+                                <a class="nav-link" id="v-pills-hack-tab" data-toggle="pill" href="#v-pills-hack"
+                                    role="tab" aria-controls="v-pills-hack" aria-selected="true">Hack.Diversity Alumni
+                                    Association</a>
+                                <a class="nav-link" id="v-pills-liberty-tab" data-toggle="pill" href="#v-pills-liberty"
+                                    role="tab" aria-controls="v-pills-liberty" aria-selected="true">Liberty Mutual
                                     Insurance</a>
-                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                    role="tab" aria-controls="v-pills-profile" aria-selected="false">North Shore
+                                <a class="nav-link" id="v-pills-northshore-tab" data-toggle="pill"
+                                    href="#v-pills-northshore" role="tab" aria-controls="v-pills-northshore"
+                                    aria-selected="false">North Shore
                                     Community College</a>
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
-                                    href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
-                                    aria-selected="false">ALX Creative Marketing Agency</a>
+                                <a class="nav-link" id="v-pills-alx-tab" data-toggle="pill" href="#v-pills-alx"
+                                    role="tab" aria-controls="v-pills-alx" aria-selected="false">ALX Creative Marketing
+                                    Agency</a>
                             </div>
                         </div>
                         <div class="col-8">
                             <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                    aria-labelledby="v-pills-home-tab">
-                                    <h4>Front End Intern <a href="https://libertymutual.com" target="_blank">@ Liberty
-                                            Mutual Insurance</a></h4>
-                                    <h6 class="font-weight-normal">May 2019 - Sept 2019</h6>
-                                    <p class="pt-10">Collaborated with 2 other interns to create a prototype of a new
-                                        application for commercial insurance using CSS, HTML, and jQuery.</p>
-                                    <p> Partnered with cross-functional teams including project owners, business
-                                        analysts, and developers to ensure designs were executed correctly.</p>
-                                    <p>Participated in usability testing to ensure designs met end-user needs.</p>
-                                    <h4 class="pt-50">Front End Intern <a href="https://libertymutual.com"
-                                            target="_blank">@ Liberty Mutual Insurance</a></h4>
-                                    <h6 class="font-weight-normal">May 2018 - Sept 2018</h6>
-                                    <p class="pt-10">Collaborated with 2 other interns to create a prototype of a new
-                                        application for commercial insurance using CSS, HTML, and jQuery.</p>
-                                    <p> Partnered with cross-functional teams including project owners, business
-                                        analysts, and developers to ensure designs were executed correctly.</p>
-                                    <p>Participated in usability testing to ensure designs met end-user needs.</p>
+                                <div class="tab-pane fade show active" id="v-pills-salesforce" role="tabpanel"
+                                    aria-labelledby="v-pills-salesforce-tab">
+                                    <h4>Product Designer <a href="https://salesforce.com" class="font-weight-bold"
+                                            target="_blank">@
+                                            Salesforce</a></h4>
+                                    <h6 class="font-weight-normal">May 2021 - Present // Remote </h6>
+                                    <p class="pt-10"> <i class="lni lni-minus lni-sm pr-2"></i>Developed a prototype for the Salesforce Health Cloud Slack
+                                        app using Javascript and Slack Block Kit Builder</p>
+                                    <p> <i class="lni lni-minus lni-sm pr-2"></i>Collaborated with product managers,
+                                        engineers and designers on decisions related to project scope, design strategy,
+                                        and implementation.</p>
+                                    <p> <i class="lni lni-minus lni-sm pr-2"></i>Worked closely with a Conversational Designer to ensure that
+                                        the interactions between the user and the chatbot were in line
+                                        with the company's brand.</p>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                    aria-labelledby="v-pills-profile-tab">
-                                    <h4>Computer Science Tutor<a href="https://www.northshore.edu/" target="_blank">@
+                                <div class="tab-pane fade show" id="v-pills-hack" role="tabpanel"
+                                    aria-labelledby="v-pills-hack-tab">
+                                    <h4>Product Designer <a href="https://hackdiversity.com" class="font-weight-bold"
+                                            target="_blank">@
+                                            Hack.Diversity Alumni Association</a></h4>
+                                    <h6 class="font-weight-normal">July 2020 - Present // Boston, MA </h6>
+                                    <p class="pt-10"> <i class="lni lni-minus lni-sm pr-2"></i>Developed the Hack.Alumni
+                                        brand identity including the logo, color palette and typography.</p>
+                                    <p> <i class="lni lni-minus lni-sm pr-2"></i>Designed scalable and responsive
+                                        web-based product experiences for the organization.</p>
+                                    
+                                    <p> <i class="lni lni-minus lni-sm pr-2"></i>Reviewed implementation with developers
+                                        to ensure designs were executed correctly and followed the brand guidelines
+                                        throughout the application.</p>
+                                </div>
+                                <div class="tab-pane fade show" id="v-pills-liberty" role="tabpanel"
+                                    aria-labelledby="v-pills-liberty-tab">
+                                    <h4>UX Design Intern <a href="https://libertymutual.com" class="font-weight-bold"
+                                            target="_blank">@
+                                            Liberty
+                                            Mutual Insurance</a></h4>
+                                    <h6 class="font-weight-normal">May - Sept 2019 // Boston, MA </h6>
+                                    <p class="pt-10"> <i class="lni lni-minus lni-sm pr-2"></i>Redesigned an outdated
+                                        agent's quoting system to create a modern web application that simplified the
+                                        user process.
+                                    </p>
+                                    <p> <i class="lni lni-minus lni-sm pr-2"></i>Conducted 10 usability testing sessions
+                                        to gather data and ensure designs met end-user needs. Presented final report to
+                                        the team and recommended changes for improvements.</p>
+                                    <p> <i class="lni lni-minus lni-sm pr-2"></i>Created user personas based on 38
+                                        interviews conducted with agents, underwriters, and territory managers.</p>
+
+                                    <h4 class="pt-50">Front End Developer Intern <a href="https://libertymutual.com"
+                                            target="_blank" class="font-weight-bold">@ Liberty Mutual Insurance</a></h4>
+                                    <h6 class="font-weight-normal">May - Sept 2018 // Boston, MA </h6>
+                                    <p class="pt-10"><i class="lni lni-minus lni-sm pr-2"></i>Created a javascript
+                                        prototype for a future quoting automation system for commercial insurance.</p>
+                                    <p><i class="lni lni-minus lni-sm pr-2"></i>Partnered with cross-functional teams
+                                        including project owners, business analysts, and developers to ensure designs
+                                        were implemented correctly.
+                                    </p>
+                                    <p><i class="lni lni-minus lni-sm pr-2"></i>Worked on eCliq Portal Application
+                                        fixing bugs and reviewing code with other team members.</p>
+                                    <p><i class="lni lni-minus lni-sm pr-2"></i>Participated in program increment with
+                                        team and used JIRA to create tickets, distribute tasks, and plan sprints.</p>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-northshore" role="tabpanel"
+                                    aria-labelledby="v-pills-northshore-tab">
+                                    <h4>Computer Science Tutor <a href="https://www.northshore.edu/"
+                                            class="font-weight-bold" target="_blank">@
                                             North Shore Community College</a></h4>
                                     <h6 class="font-weight-normal">Feb 2017 - May 2018</h6>
-                                    <p class="pt-10">Tutored students in Computer Science subjects and Math through
+                                    <p class="pt-10"><i class="lni lni-minus lni-sm pr-2"></i>Tutored students in
+                                        Computer Science subjects and Math through
                                         Calculus.</p>
-                                    <p>Assisted STEM Coordinator in college conferences, workshops, and panels.</p>
+                                    <p><i class="lni lni-minus lni-sm pr-2"></i>Assisted STEM Coordinator in college
+                                        conferences, workshops, and panels.</p>
 
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                    aria-labelledby="v-pills-messages-tab">
-                                    <h4>Graphic Designer
-                                        <h6 class="font-weight-normal">Apr 2016 - Dec 2016</h6>
-                                        <p class="pt-10">Developed branding and marketing solutions such as logo/brand
-                                            identity, business cards, brochures, booklets and more.</p>
-                                        <p>Designed websites using Wordpress.</p>
+                                <div class="tab-pane fade" id="v-pills-alx" role="tabpanel"
+                                    aria-labelledby="v-pills-alx-tab">
+                                    <h4>Graphic Designer <a class="font-weight-bold" href="#">@ ALX Creative Marketing
+                                            Agency</a></h4>
+                                    <h6 class="font-weight-normal">Apr 2016 - Dec 2016</h6>
+                                    <p class="pt-10"><i class="lni lni-minus lni-sm pr-2"></i>Developed branding and
+                                        marketing solutions such as logo/brand
+                                        identity, business cards, brochures, booklets and more.</p>
+                                    <p><i class="lni lni-minus lni-sm pr-2"></i>Designed websites using Wordpress.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
 
     <!--====== TESTIMONIAL PART START ======-->
 
     <section id="portfolio" class="testimonial-area pt-70 pb-120">
         <div class="container">
-            <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                <h4 class="title">Some things I've designed and built<span>.</span></h4>
-            </div> <!-- section title -->
-            <div class="row justify-content-start pb-100">
-                <div class="col-xl-4 col-lg-4">
-                    <div class="testimonial-left-content mt-45 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <div class="section-title">
-                            <h6 class="font-weight-light">Featured Project</h6>
-                            <h3 class="font-weight-normal">Code Snippet</h3>
-                        </div> <!-- section title -->
-                        <ul class="testimonial-line">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <p class="text pb-30">A website where students can look up definitions, code sample, sorting
-                            algorithm and etc in the languages C, C++ and Java.</p>
-                        <span>
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h4 class="title">Some things I've designed and built<span>.</span></h4>
+                    </div>
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-lg-8">
+                            <div class="testimonial-right-content mt-50 wow fadeIn" data-wow-duration="1s"
+                                data-wow-delay="0.6s">
+                                <div class="testimonial-content-wrapper">
+                                    <div class="single-testimonial">
+                                        <a class="portfolio-hover" href="hackalumni.html">
+                                            <img src="assets/images/mockup-hack-alumni.png">
+                                        </a>
 
-                        </span>
-                        <a class="pr-10" href="https://github.com/ludmylaalmeida/codesnippet" target="_blank"
-                            style="font-size: 2em;">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.sketch.com/s/66821258-126f-4543-8a3e-d649329b7cbf/a/R8J2RQ" target="_blank"
-                            style="font-size: 2em;">
-                            <i class="fab fa-sketch"></i>
-                        </a>
-                    </div> <!-- testimonial left content -->
-                </div>
-                <div class="col-lg-8">
-                    <div class="testimonial-right-content mt-50 wow fadeIn" data-wow-duration="1s"
-                        data-wow-delay="0.6s">
-                        <div class="testimonial-content-wrapper">
-                            <div class="single-testimonial">
-                                <img src="assets/images/code-snippet.png">
-                            </div> <!-- single testimonial -->
-                        </div> <!-- testimonial content wrapper -->
-                    </div> <!-- testimonial right content -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-start">
-                <div class="col-lg-8">
-                    <div class="testimonial-right-content mt-50 wow fadeIn" data-wow-duration="1s"
-                        data-wow-delay="0.6s">
-                        <div class="testimonial-content-wrapper">
-                            <div class="single-testimonial">
-                                <img src="assets/images/hack-alumni.png">
-                            </div> <!-- single testimonial -->
-                        </div> <!-- testimonial content wrapper -->
-                    </div> <!-- testimonial right content -->
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="text-right testimonial-left-content mt-45 wow fadeIn" data-wow-duration="1s"
-                        data-wow-delay="0.3s">
-                        <div class="section-title">
-                            <h6 class="font-weight-light">Featured Project</h6>
-                            <h3 class="font-weight-normal">Hack Alumni</h3>
-                        </div> <!-- section title -->
-                        <ul class="testimonial-line">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <p class="text pb-30">A website for the hack.diversity alumni association. I'm currently the
-                            lead designer working with a team of developers. Website is under development.</p>
-                        <span>
+                                    </div> <!-- single testimonial -->
+                                </div> <!-- testimonial content wrapper -->
+                            </div> <!-- testimonial right content -->
+                        </div>
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="text-right testimonial-left-content mt-45 wow fadeIn" data-wow-duration="1s"
+                                data-wow-delay="0.3s">
+                                <div class="section-title">
+                                    <h6 class="font-weight-light">Featured Project</h6>
+                                    <h3 class="font-weight-normal">Hack.Alumni</h3>
+                                </div>
+                                <ul class="testimonial-line">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <p class="text pb-30">A website for the hack.diversity alumni association. I'm currently
+                                    the
+                                    lead product designer working with a team of developers. Website is under
+                                    development.
+                                </p>
+                                <a class="pr-2" href="http://hackalumni.com/" target="_blank" style="font-size: 2em;">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://www.sketch.com/s/c8de57bb-5d8f-4d74-bf0c-19126818c439" target="_blank"
+                                    style="font-size: 2em;">
+                                    <i class="fab fa-sketch"></i>
+                                </a>
 
-                        </span>
-                        <a href="https://www.sketch.com/s/c8de57bb-5d8f-4d74-bf0c-19126818c439" target="_blank"
-                            style="font-size: 2em;">
-                            <i class="fab fa-sketch"></i>
-                        </a>
-                    </div> <!-- testimonial left content -->
+                            </div> <!-- testimonial left content -->
+                        </div>
+                    </div>
+            <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-4">
+                        <div class="testimonial-left-content mt-45 wow fadeIn" data-wow-duration="1s"
+                            data-wow-delay="0.3s">
+                            <div class="section-title">
+                                <h6 class="font-weight-light">Featured Project</h6>
+                                <h3 class="font-weight-normal">User Personas</h3>
+                            </div>
+                            <ul class="testimonial-line">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <p class="text pb-30">Created user personas based on 38 interviews conducted with agents,
+                                underwriters, and territory managers across the country.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="testimonial-right-content mt-50 wow fadeIn" data-wow-duration="1s"
+                            data-wow-delay="0.6s">
+                            <div class="testimonial-content-wrapper">
+                                <div class="single-testimonial">
+                                    <a class="portfolio-hover" href="userpersona.html">
+                                        <img src="assets/images/user-persona-1.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-            </div> <!-- row -->
-        </div> <!-- container -->
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="center-btn mt-5">
+                        <a class="main-btn" href="portfolio.html">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!--====== TESTIMONIAL PART ENDS ======-->
-
-    <!--====== PROJECT GALLERY PART START ======-->
 
     <section id="portfolio" class="project-masonry-area pt-70 pb-120">
         <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
                     <div class="section-title pb-20 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                         <h4 class="title">Design Gallery<span>.</span></h4>
-                    </div> <!-- section title -->
+                    </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="project-menu text-center text-sm-left text-lg-right pb-20">
@@ -417,98 +489,96 @@
                         </ul>
                     </div> <!-- project menu -->
                 </div>
-            </div> <!-- row -->
+            </div>
             <div class="row grid">
                 <div class="col-lg-4 col-sm-6 grid-item logos ">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/code-snippet-logo.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item logos ">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/hack-alumni-logo.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item logos ">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/santa-data-logo.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item posters">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/agile.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item posters">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/game-night.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item posters">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/how-to-grad-school.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item posters">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/git_workflow_poster.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item posters">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/scholar-jet.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item posters">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/typeracer-competition.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item branding">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/palette.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 grid-item branding">
                     <div class="single-gallery gallery-masonry mt-30">
                         <div class="gallery-image">
                             <img src="assets/images/Typography.png" alt="portfolio">
                         </div>
-                    </div> <!-- single gallery -->
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
-
-    <!--====== CONTACT PART START ======-->
 
     <section id="contact" class="contact-area pt-120 pb-120">
         <div class="container">
-            <div class="row justify-content-start">
-                <div class="col-lg-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
                     <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <h4 class="title">Get In Touch<span>.</span></h4>
-                    </div> <!-- section title -->
+                    </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="contact-wrapper-form wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -516,53 +586,37 @@
                             <span class="font-weight-normal">new opportunities</span>, my inbox is always open. Whether
                             you have a question or just want to say hi, you can reach out on <a
                                 href="https://www.linkedin.com/in/ludmyla-almeida/" target="_blank">social media</a> or
-                            <a href="mailto:almeida.ludmyla@gmail.com" target="_blank">email!</a></p>
+                            <a href="mailto:almeida.ludmyla@gmail.com" target="_blank">email!</a>
+                        </p>
                     </div> <!-- contact wrapper form -->
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
-
-    <!--====== CONTACT PART ENDS ======-->
-
-    <!--====== FOOTER PART START ======-->
 
     <footer id="footer" class="footer-area bg_cover">
 
         <div class="footer-copyright text-center">
-            <p class="text">© 2020 Designed and Build by <span>Ludmyla Almeida</span></p>
+            <p class="text">© 2021 Designed and Build by <span>Ludmyla Almeida</span></p>
         </div>
     </footer>
 
-    <!--====== FOOTER PART ENDS ======-->
-
-    <!--====== BACK TOP TOP PART START ======-->
 
     <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
 
-    <!--====== BACK TOP TOP PART ENDS ======-->
-
-
-
-
-    <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
 
-    <!-- font awesome -->
-    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script> -->
 
     <!--====== Bootstrap js ======-->
     <script src="assets/js/popper.min.js"></script>
 
     <!-- JS, Popper.js, and jQuery -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-         -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <!--====== Slick js ======-->
     <script src="assets/js/slick.min.js"></script>
 
